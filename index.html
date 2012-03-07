@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>A Generic Page</title>
+    <meta name="description" content="something good should go here">
+    <meta name="author" content="your name should go here">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Base Stylsheets http://twitter.github.com/bootstrap/ -->
+    <link rel="stylesheet" href="stylesheets/lib/bootstrap.css" >
+    <link rel="stylesheet" href="stylesheets/lib/jquery.fancybox.css" >
+
+
+    <!-- Your Stylesheets -->
+    <link rel="stylesheet" href="stylesheets/main.css" >
+    <link rel="stylesheet" href="stylesheet.css" >
+
+
+    <!--  jQuery http://jquery.com/ -->
+    <script src="javascripts/lib/jquery-1.7.1.min.js"></script>
+
+    <!-- Bootstrap Javascripts http://twitter.github.com/bootstrap/javascript.html -->
+    <script src="javascripts/lib/bootstrap.js"></script>
+
+    <!-- Fancybox Lightbox http://fancyapps.com/fancybox/#examples -->
+    <script src="javascripts/lib/jquery.fancybox.js"></script>
+
+
+    <!-- Your Javascripts -->
+    <script src="javascripts/main.js"></script>
+
+  </head>
+
+  <body>
+  <img src="images/logo.png">
+  <div id="log">
+  <form class="well form-search" action="main.php" method="get"><h4>Log-In</h4>
+  	<input type="text" class="input-medium" placeholder="Email" name="email">
+  	<input type="password" class="input-medium" placeholder="Password" name="password">
+   <input type="submit" value="Login" id="submit" />
+  </form>
+  </div>
+    <div class="container">
+    <div class="row">
+    <div class="span12">
+    <div class="main">
+ 
+    <div class="row">
+    <div class="span5">
+    <div id="info">
+ <h1>Create your very own virtual pet today!</h1>
+ <br><br><h2>Features Include:</h2>
+ <br><h3><img src="images/games.png"> Play mini-games with your pet</h3>
+ <br><h3>Feed, groom, and do other activities with your pet!</h3>
+ <br><h3>Never forget to feed your pet! Pets will text you reminders.</h3>
+ <br><hr/>
+ <h2>See other pets that have been created near you!</h2>
+ <br><div id="map">
+ <img src="http://placehold.it/300x250">
+ </div> <!-- end map -->
+     </div> <!-- end info -->
+    </div> <!-- end span5 -->
+    <div class="span6">
+    <div id="login">
+    <h1>Sign up now! (will add form validation later)</h1>
+    <br><br><br>
+    <div id="form">
+	<form class="form-horizontal">
+	<div class="control-group">
+	<input class="input-xlarge focused" id="foccusedInput" type="text" value="Enter an e-mail address.">
+	</div> <!-- end control-group -->
+	
+	<div class="control-group">
+	<input class="input-xlarge focused" id="foccusedInput" type="text" value="Enter a password.">
+	</div> <!-- end control-group -->
+	
+	<div class="control-group">
+	<input class="input-xlarge focused" id="foccusedInput" type="text" value="Enter a password again.">
+	</div> <!-- end control-group -->
+	
+	<div class="control-group">
+	<input class="input-xlarge focused" id="foccusedInput" type="text" value="Enter your zipcode.">
+	</div> <!-- end control-group -->
+	
+	<div id="button">
+
+		<button type="submit" id="createbutton" class="btn btn-large btn-primary">Create your account</button>
+	
+	</div> <!-- end button -->
+	</form> <!-- end form -->
+	</div> <!-- end form div -->
+    </div> <!-- end login -->
+    </div> <!--end span6 -->
+    </div> <!-- end row -->
+    
+    </div> <!-- end main -->
+    </div> <!-- end span12 -->
+    </div> <!-- end row -->
+
+    </div> <!-- end container -->    
+
+  </body>
+</html>

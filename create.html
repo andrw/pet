@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>A Generic Page</title>
+    <meta name="description" content="something good should go here">
+    <meta name="author" content="your name should go here">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Base Stylsheets http://twitter.github.com/bootstrap/ -->
+    <link rel="stylesheet" href="stylesheets/lib/bootstrap.css" >
+    <link rel="stylesheet" href="stylesheets/lib/jquery.fancybox.css" >
+
+
+    <!-- Your Stylesheets -->
+    <link rel="stylesheet" href="stylesheets/main.css" >
+   	<link href='http://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+   	<link rel="stylesheet" href="stylesheet.css" >
+   
+
+
+    <!--  jQuery http://jquery.com/ -->
+    <script src="javascripts/lib/jquery-1.7.1.min.js"></script>
+
+    <!-- Bootstrap Javascripts http://twitter.github.com/bootstrap/javascript.html -->
+    <script src="javascripts/lib/bootstrap.js"></script>
+
+    <!-- Fancybox Lightbox http://fancyapps.com/fancybox/#examples -->
+    <script src="javascripts/lib/jquery.fancybox.js"></script>
+
+    <!-- Your Javascripts -->
+    <script src="javascripts/main.js"></script>
+
+  </head>
+
+  <body>
+  	<img src="images/logo.png">
+  	<div class="container">
+	<div class="row">
+	<div class="span12">
+	<div class="main2">
+	<br>
+	<div id="create">
+	<h1>Create a pet!</h1>
+	<br><br><img src="http://placehold.it/200x200">
+	<br><br>
+	<div id="createform">
+
+	<form class="form-horizontal" action="main.php" method="get">
+	
+	<div class="control-group">
+	           <label class="control-label" for="focusedInput">Name:</label>
+	           <div class="controls">
+	             <input class="input-large focused" id="focusedInput" type="text" value="Name your pet.">
+	           </div>
+	         </div>
+	         
+	<div class="control-group">
+	            <label class="control-label" for="select01">Type of pet:</label>
+	            <div class="controls">
+	              <select id="select01">
+	                <option>Cat</option>
+	                <option>Dog</option>
+	              </select>
+	            </div>
+	</div>
+	
+	<div class="control-group">
+	            <label class="control-label">Gender:</label>
+	            <div class="controls">
+	              <label class="radio inline">
+	                <input type="radio" name="gender" id="optionsRadios1" value="male" checked>
+	                Male
+	              </label>
+	              <label class="radio inline">
+	                <input type="radio" name="gender" id="optionsRadios2" value="female">
+	                Female
+	              </label>
+	            </div>
+	          </div>
+	 
+		 <div id="submitcreate">
+	 		<button type="submit" id="buttoncreate" class="btn btn-large btn-info">Create your pet</button>
+	 	
+	 	</div> <!-- end submitcreate -->
+	 </form>
+	 
+	 </div> <!-- end createform -->
+	 
+
+	 
+	</div> <!-- end create -->
+	<br>
+	</div> <!-- end main -->
+	</div> <!-- end span12 -->
+	</div> <!-- end row -->
+    </div> <!-- end container -->    
+
+  </body>
+</html>
